@@ -1,6 +1,6 @@
 services:
-  app:
-    build: .
+  backend:
+    image: space0403/order-service:lateest # docker hub에 push한 이미지 이름
     ports:
       - '80:80'
     enviroment:
